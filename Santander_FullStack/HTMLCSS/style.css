@@ -1,0 +1,81 @@
+@font-face{
+    font-family: 'Comic' ;
+    src:url('Fontes/Action\ Comics\ Black.ttf') format('truetype');
+}
+
+body{
+    padding: 15px;
+    margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div{
+    background-image: linear-gradient(to bottom, #5765b0,#C07792,#D7B693);
+    margin: 0;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#title{
+    margin: 15 0 0 0;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-family: 'Comic', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: -3px -3px 0px black, 
+    -3px 5px 1px  black,                    
+     5px -3px 0px  black,                  
+     5px 0px 0px  black;
+     font-size: 50px;
+     text-align: center;
+     margin-bottom: 0;
+
+
+}
+
+ #middlename{
+    color: black;
+    font-weight:  bold;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0;
+
+}
+
+    
+
+ .subtitle, .post_title{
+    color: #5765b0;
+}
+
+.post_title{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+#descricao{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 15px 5px 15px 5px;
+    background-color: black;
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+    color: purple;
+}
+
+ul{
+    list-style-image: url("");
+}
+
+img{
+    border-radius: 50%;
+    border: 5px solid black;
+}
