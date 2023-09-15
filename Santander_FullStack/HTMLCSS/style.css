@@ -4,31 +4,39 @@
 }
 
 body{
-    padding: 15px;
-    margin-top: 15px;
+    padding: 0 15px ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 div{
-    background-image: linear-gradient(to bottom, #5765b0,#C07792,#D7B693);
+
     margin: 0;
     padding: 15px;
     border-radius: 15px;
 }
 
+header{
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-left: 30px;
+
+}
+
+
+
 #title{
     margin: 15 0 0 0;
     text-transform: uppercase;
-    color: aliceblue;
-    font-family: 'Comic', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-shadow: -3px -3px 0px black, 
-    -3px 5px 1px  black,                    
-     5px -3px 0px  black,                  
-     5px 0px 0px  black;
-     font-size: 50px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size: 80px;
      text-align: center;
      margin-bottom: 0;
 
@@ -40,8 +48,10 @@ div{
     font-weight:  bold;
     text-align: center;
     font-size: medium;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     margin-top: 0;
+    padding-top: 0;
+    font-weight: bold;
 
 }
 
@@ -58,12 +68,18 @@ div{
     margin-bottom: 15px;
 }
 
+article{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
 #descricao{
-    border: 2px solid black;
-    border-radius: 5px;
     padding: 15px 5px 15px 5px;
-    background-color: black;
-    color: aliceblue;
+    color:rgb(44, 49, 54);
+    font-weight: bold;
+    max-width: 500px;
+    text-align: center;
 }
 
 a{
@@ -71,11 +87,18 @@ a{
     color: purple;
 }
 
-ul{
-    list-style-image: url("");
-}
 
 img{
     border-radius: 50%;
     border: 5px solid black;
 }
+ footer{
+    border-top: 5px solid black;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+ }
+
