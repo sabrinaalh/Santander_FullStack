@@ -3,30 +3,46 @@
     src:url('Fontes/Action\ Comics\ Black.ttf') format('truetype');
 }
 
+
+
+*::-webkit-scrollbar {
+    width: 15px;
+  }
+
+*::-webkit-scrollbar-thumb{
+    background-color: black;
+    border: 2px solid black ;
+    border-radius: 2px;
+}
+
 body{
-    padding: 0 15px ;
+    padding: 15px ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
+
+
 
 div{
-
     margin: 0;
     padding: 15px;
+    max-width: 1500px;
     border-radius: 15px;
+    background-color: blueviolet;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
 }
 
+
+
 header{
-    width:300px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
-    margin-left: 30px;
-
+    position:relative;
 }
 
 
@@ -34,7 +50,7 @@ header{
 #title{
     margin: 15 0 0 0;
     text-transform: uppercase;
-    color: black;
+    color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      font-size: 80px;
      text-align: center;
@@ -44,21 +60,19 @@ header{
 }
 
  #middlename{
-    color: black;
-    font-weight:  bold;
+    color: aliceblue;
     text-align: center;
-    font-size: medium;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 0;
     padding-top: 0;
-    font-weight: bold;
+    letter-spacing: 5px;
 
 }
 
     
 
- .subtitle, .post_title{
-    color: #5765b0;
+h2{
+    color:#010f3b;
 }
 
 .post_title{
@@ -76,29 +90,41 @@ article{
 
 #descricao{
     padding: 15px 5px 15px 5px;
-    color:rgb(44, 49, 54);
-    font-weight: bold;
+    color:rgb(207, 214, 221);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
     max-width: 500px;
     text-align: center;
 }
 
-a{
-    text-decoration: none;
-    color: purple;
+
+
+
+i{
+     cursor: pointer;
+
+     color:white;
+
+}
+
+i:hover{
+         color:aqua;
 }
 
 
 img{
     border-radius: 50%;
-    border: 5px solid black;
+    border: 7px solid black;
 }
+
+
  footer{
-    border-top: 5px solid black;
-    padding: 15px;
+    border-top: 5px solid white;
+    padding: 50px;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
 
  }
 
